@@ -1,0 +1,40 @@
+@import '../../shared/scss/vars.scss';
+
+.ML-searchbar-container {
+  background: $ML-yellow;
+  width: 100%;
+  margin: 0 auto;
+  padding: 5px 0;
+  display: flex;
+  .content-component {
+    align-self: center;
+    max-width: $max-width;
+    width: 100%;
+    display: flex;
+    margin: 0 auto;
+    .logo {
+      margin-right: 22px;
+    }
+    .container-input {
+      width: 100%;
+      form {
+        display: flex;
+        input {
+          border-bottom-left-radius: 3px;
+          border-top-left-radius: 3px;
+          width: 100%;
+          padding: 9px;
+          border: none;
+          font-size: 1.125em;
+        }
+        button {
+          border: none;
+          width: 43px;
+          border-bottom-right-radius: 3px;
+          border-top-right-radius: 3px;
+        }
+      }
+    }
+    
+  }  
+}

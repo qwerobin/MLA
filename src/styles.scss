@@ -1,0 +1,13 @@
+@import './shared/reset.css';
+@import './shared/scss/vars.scss';
+
+body {
+  font-size: 16px;
+  background: $ML-grayEE;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: $ML-gray33;
+}
+
+.default-text {
+  font-size: 1em;
+}

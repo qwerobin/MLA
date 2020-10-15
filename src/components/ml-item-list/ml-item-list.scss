@@ -1,0 +1,46 @@
+@import '../../shared/scss/vars.scss';
+
+.ML-item {
+  display: flex;
+  padding: 16px 0;
+  border-bottom: 1px solid $ML-grayEE;
+  color: $ML-gray33;
+  .img-container {
+    min-width: 180px;
+    max-width: 180px;
+    height: 180px;
+    border-radius: 4px;
+    overflow: hidden;
+    margin-right: 16px;
+    img {
+      width: 100%;
+    }
+  }
+  .mini-detail-container {
+    flex-grow: 1;
+    .value-title {
+      font-size: 1.5em;
+      margin: 16px 0 32px;
+      img {
+        margin-left: 10px;
+      }
+    }
+    .detail-text {
+      font-size: 1.125em;
+      a {
+        text-decoration: none;
+        color: $ML-gray33;
+      }
+    }
+    .status-text {
+      margin-top: 10px;
+      font-size: 1em;
+    }
+  }
+  .location-container{
+    font-size: 0.75em;
+    max-width: 180px;
+    min-width: 180px;
+    padding: 20px 0 0 20px;
+  }
+}

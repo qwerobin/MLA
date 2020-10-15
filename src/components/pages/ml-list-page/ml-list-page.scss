@@ -1,0 +1,15 @@
+@import '../../../shared/scss/vars.scss';
+@import '../../../shared/scss/layout.scss';
+
+.ML_List_Page {
+  .section-component {
+    background: $white;
+    border-radius: 12px;
+    padding: 16px;
+  }
+  .author {
+    width: $max-width;
+    margin: 10px auto;
+    text-align: right;
+  }
+}

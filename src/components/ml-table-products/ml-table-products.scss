@@ -1,0 +1,15 @@
+@import '../../shared/scss/vars.scss';
+
+.ML-table-products-container {
+  width: 100%;
+  .content-component {
+    font-size: 1.125em;
+    max-width: $max-width;
+    background: $white;
+    border-radius: 12px;
+    margin: 0 auto;
+    .item {
+      padding: 0 16px;
+    }
+  }
+}

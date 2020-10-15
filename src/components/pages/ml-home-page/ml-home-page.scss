@@ -1,0 +1,16 @@
+@import '../../../shared/scss/vars.scss';
+@import '../../../shared/scss/layout.scss';
+
+.ML_Home_Page {
+  .section-container {
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    svg {
+      font-size: 50px;
+      margin: 30px auto;
+    }
+  }
+}
