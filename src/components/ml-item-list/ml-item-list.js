@@ -9,7 +9,6 @@ import ShippingImg2x from '../../assets/ic_shipping@2x.png';
 export default class MLItemList extends Component {
 
     render () {
-      console.log(this.props.dataItem.free_shipping,'lllllll')
         return (<div className="ML-item">
             <div className="img-container">
               <img src={this.props.dataItem.picture} alt={this.props.dataItem.title}/>

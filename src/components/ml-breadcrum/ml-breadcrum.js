@@ -6,7 +6,7 @@ export default class MLBreadCrum extends Component {
         return (<div className="ML-breadcrum-container">
             <div className="content-component">
                 {
-                   this.props.dataBread.map((el) => <span>{el.name}</span> )
+                  this.props.dataBread ? this.props.dataBread.map((el) => <span>{el.name}</span> ) : null
                 }
                 <strong>{this.props.keyData} </strong></div>
         </div>)
